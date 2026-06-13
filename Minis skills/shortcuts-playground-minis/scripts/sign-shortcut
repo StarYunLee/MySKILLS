@@ -1,0 +1,5 @@
+#!/bin/sh
+# Minis wrapper: sign a Shortcuts XML/plist via RoutineHub HubSign.
+PY="${SHORTCUTS_PLAYGROUND_PYTHON:-python3}"
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+exec "$PY" "$SCRIPT_DIR/sign_shortcut_via_hubsign.py" "$@"
