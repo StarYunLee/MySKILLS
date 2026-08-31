@@ -1,6 +1,6 @@
 # MySKILLS
 
-Personal skills repository for [Minis](https://github.com/OpenMinis/Minis).
+Personal skills repository for [OpenMinis](https://github.com/OpenMinis/OpenMinis).
 
 ## MinisSkill 目录说明
 
